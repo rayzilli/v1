@@ -554,23 +554,9 @@ video {
   display: none;
 }
 
-.m-9 {
-  margin: 2.25rem;
-}
-
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
-}
-
-.mx-9 {
-  margin-left: 2.25rem;
-  margin-right: 2.25rem;
-}
-
-.my-9 {
-  margin-top: 2.25rem;
-  margin-bottom: 2.25rem;
 }
 
 .my-12 {
@@ -578,16 +564,13 @@ video {
   margin-bottom: 3rem;
 }
 
-.my-1 {
-  margin-top: 0.25rem;
-  margin-bottom: 0.25rem;
+.my-9 {
+  margin-top: 2.25rem;
+  margin-bottom: 2.25rem;
 }
 
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.mb-8 {
+.my-8 {
+  margin-top: 2rem;
   margin-bottom: 2rem;
 }
 
@@ -595,20 +578,40 @@ video {
   margin-bottom: 0.5rem;
 }
 
+.mt-12 {
+  margin-top: 3rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
+.mt-8 {
+  margin-top: 2rem;
+}
+
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .flex {
   display: flex;
 }
 
-.h-6 {
-  height: 1.5rem;
-}
-
 .min-h-screen {
   min-height: 100vh;
-}
-
-.w-6 {
-  width: 1.5rem;
 }
 
 .max-w-3xl {
@@ -624,12 +627,24 @@ video {
   background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
 }
 
-.stroke-white {
-  stroke: #fff;
+.bg-indigo-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(49 46 129 / var(--tw-bg-opacity, 1));
 }
 
-.p-8 {
-  padding: 2rem;
+.bg-blue-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(30 58 138 / var(--tw-bg-opacity, 1));
+}
+
+.bg-teal-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(19 78 74 / var(--tw-bg-opacity, 1));
+}
+
+.bg-zinc-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(24 24 27 / var(--tw-bg-opacity, 1));
 }
 
 .px-2 {
@@ -637,19 +652,9 @@ video {
   padding-right: 0.5rem;
 }
 
-.px-8 {
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.py-3 {
-  padding-top: 0.75rem;
-  padding-bottom: 0.75rem;
-}
-
-.py-12 {
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+.py-10 {
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
 }
 
 .py-2 {
@@ -657,19 +662,21 @@ video {
   padding-bottom: 0.5rem;
 }
 
-.py-10 {
-  padding-top: 2.5rem;
-  padding-bottom: 2.5rem;
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
-.py-6 {
-  padding-top: 1.5rem;
-  padding-bottom: 1.5rem;
+.pt-2 {
+  padding-top: 0.5rem;
+}
+
+.pt-8 {
+  padding-top: 2rem;
 }
 
 .text-2xl {
@@ -692,44 +699,89 @@ video {
   line-height: 1.75rem;
 }
 
-.text-slate-400 {
-  --tw-text-opacity: 1;
-  color: rgb(148 163 184 / var(--tw-text-opacity, 1));
-}
-
-.text-slate-200 {
-  --tw-text-opacity: 1;
-  color: rgb(226 232 240 / var(--tw-text-opacity, 1));
-}
-
 .text-slate-300 {
   --tw-text-opacity: 1;
   color: rgb(203 213 225 / var(--tw-text-opacity, 1));
 }
 
-.transition {
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 150ms;
-}
-
-.hover\:bg-slate-900:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(15 23 42 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:bg-sky-900:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(12 74 110 / var(--tw-bg-opacity, 1));
-}
-
-.hover\:stroke-gray-400:hover {
-  stroke: #9ca3af;
+.text-slate-400 {
+  --tw-text-opacity: 1;
+  color: rgb(148 163 184 / var(--tw-text-opacity, 1));
 }
 
 .hover\:stroke-sky-400:hover {
   stroke: #38bdf8;
+}
+
+.hover\:stroke-indigo-400:hover {
+  stroke: #818cf8;
+}
+
+.hover\:stroke-teal-400:hover {
+  stroke: #2dd4bf;
+}
+
+.hover\:stroke-teal-800:hover {
+  stroke: #115e59;
+}
+
+.hover\:stroke-teal-700:hover {
+  stroke: #0f766e;
+}
+
+.hover\:stroke-teal-300:hover {
+  stroke: #5eead4;
+}
+
+.hover\:stroke-indigo-300:hover {
+  stroke: #a5b4fc;
+}
+
+.hover\:stroke-indigo-200:hover {
+  stroke: #c7d2fe;
+}
+
+.hover\:stroke-lime-200:hover {
+  stroke: #d9f99d;
+}
+
+.hover\:stroke-emerald-200:hover {
+  stroke: #a7f3d0;
+}
+
+.hover\:stroke-violet-200:hover {
+  stroke: #ddd6fe;
+}
+
+.hover\:stroke-teal-200:hover {
+  stroke: #99f6e4;
+}
+
+.hover\:stroke-sky-200:hover {
+  stroke: #bae6fd;
+}
+
+.hover\:stroke-sky-300:hover {
+  stroke: #7dd3fc;
+}
+
+.hover\:stroke-slate-300:hover {
+  stroke: #cbd5e1;
+}
+
+.hover\:stroke-orange-400:hover {
+  stroke: #fb923c;
+}
+
+.hover\:stroke-green-200:hover {
+  stroke: #bbf7d0;
+}
+
+.hover\:stroke-sky-500:hover {
+  stroke: #0ea5e9;
+}
+
+.hover\:stroke-sky-600:hover {
+  stroke: #0284c7;
 }
 
