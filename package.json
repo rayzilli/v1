@@ -3,18 +3,19 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
-  "build:css": "npx postcss style.css -o _site/style.css",
-  "build":     "npm run build:css && npx @11ty/eleventy",
-  "watch:css": "npx tailwindcss -i style.css -o _site/style.css --watch",
-  "start":     "npm run build && npx @11ty/eleventy --watch --serve",
-  "dev":       "concurrently \"npm run watch:css\" \"npm run start\""
-},
+  "scripts": {
+    "build:css": "npx postcss style.css -o _site/style.css",
+    "build": "npm run build:css && npx @11ty/eleventy",
+    "watch:css": "npx tailwindcss -i style.css -o _site/style.css --watch",
+    "start": "npm run build && npx @11ty/eleventy --watch --serve",
+    "dev": "concurrently \"npm run watch:css\" \"npm run start\""
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@11ty/eleventy": "^3.0.0"
+    "@11ty/eleventy": "^3.0.0",
+    "@11ty/eleventy-img": "^6.0.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
